@@ -1,7 +1,7 @@
 FROM anasty17/mltb:latest
 
-WORKDIR /maruf
-
+#WORKDIR /maruf
+RUN sleep 10
 RUN apt install wget -y
 RUN apt install --fix-broken;apt update -y
 RUN apt upgrade -y
